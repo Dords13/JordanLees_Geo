@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Jordan Lees Geoportfolio</title>
+    <link rel="stylesheet" href="geoportfoliocss.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div id="sidebar" class="sidebar-animate-open" style="display:none">
+        <button onclick="close_sidebar()" class="sidebar-menu-button close-sidebar-button">&times;</button>
+        <a href="#topofpage" class="sidebar-menu-button mainbutton">Home</a>
+        <a href="#about" class="sidebar-menu-button mainbutton">About</a>
+        <a href="#academicinfo" class="sidebar-menu-button mainbutton">Academic Information</a>
+        <a href="#industryexperience" class="sidebar-menu-button mainbutton">Industry Experience</a>
+        <a href="#sap" class="sidebar-menu-button mainbutton">Skills and Proficiencies</a>
+        <a href="#credits" class="sidebar-menu-button mainbutton">Acknowledgements</a>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+        <button class="sidebar-menu-button open-sidebar-button" onclick="open_sidebar()">&#9776;</button>
+    </div>
+
+    <!-- Welcome Section -->
+    <div class="mapbgdiv" id="topofpage">
+        <img src="mapwelcomemod.jpg" alt="map" class="mapbg">
+        <div class="title">
+            <h1>Jordan Lees Geoportfolio</h1>
+            <h2>Surveyor and Geospatial Specialist</h2>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="intro bar" id="about"><h2>About Me</h2></div>
+    <div class="about">
+        <p>
+            I am Jordan Lees, a fourth-year student pursuing a Bachelor of Applied Science in Surveying at RMIT, with an expected graduation in November 2024. I have a passion for surveying and geospatial technology, especially in digital and spatial data applications such as using drones and scanning technology.
+        </p>
+        <p>
+            I have extensive experience working as a Survey Assistant at ESO Surveyors and Veris, as well as a Geodetic Survey Technical Officer at Survey-General Victoria, with a focus on engineering, cadastral, and geodetic surveying.
+        </p>
+        <img src="self-portrait.jpg" height="500px" width="auto" class="image"> 
+    </div>
+
+    <!-- Academic Portfolio Section -->
+    <div class="pagetitle" id="academicinfo">
+        <span class="title-ul">Academic Portfolio Overview</span>
+    </div>
+
+    <div class="bar"><h2>Notable Projects</h2></div>
+    <div class="paragraphs">
+        <p>Below are some of the projects I've worked on during my academic career:</p>
+
+        <div class="bar"><h3>Capstone Project: AHD Height Discrepancies</h3></div>
+        <p>
+            A detailed research project analyzing Australian Height Datum (AHD) discrepancies, including detection, underlying causes, and prediction models. The project included surveys using static and RTK kits and creating predictive overlays using ArcGIS Pro.
+        </p>
+        <img src="capstone-project.jpg" alt="Capstone project image" class="image">
+        
+        <div class="bar"><h3>Network Design & LSE in Photogrammetry</h3></div>
+        <p>
+            Created and analyzed 3D models using photogrammetry techniques. The project involved room and object modeling using a smartphone LiDAR sensor and analyzing the accuracy of the models.
+        </p>
+        <img src="photogrammetry-project.jpg" alt="Photogrammetry project image" class="image">
+    </div>
+
+    <!-- Industry Experience Section -->
+    <div class="pagetitle" id="industryexperience">
+        <span class="title-ul">Industry Experience</span>
+    </div>
+    <div class="paragraphs">
+        <div class="bar"><h3>Survey Assistant - ESO Surveyors</h3></div>
+        <p>
+            Assisted in a variety of survey tasks, including engineering, cadastral, and setout surveys. Worked on high-profile projects such as the level crossing removal project.
+        </p>
+        <img src="eso-surveying.jpg" alt="ESO Surveyors image" class="image">
+
+        <div class="bar"><h3>Geodetic Survey Technical Officer - Survey-General Victoria</h3></div>
+        <p>
+            Assisted with GPSnet, SMES, and high-precision surveying services. Supported airborne gravity surveys, ensuring adherence to strict QA/QC standards.
+        </p>
+        <img src="geodetic-survey.jpg" alt="Geodetic Survey image" class="image">
+    </div>
+
+    <!-- Skills and Proficiencies Section -->
+    <div class="bar" id="sap"><h2>Skills and Proficiencies</h2></div>
+    <div class="skills">
+        <table class="icontable">
+            <tr>
+                <td><img src="Icons/totalstation.png" class="iconimages"></td>
+                <td>Surveying Equipment: Total Stations, GNSS</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/autocad.png" class="iconimages"></td>
+                <td>Software: AutoCAD, ArcGIS Pro, LisCAD</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/drones.png" class="iconimages"></td>
+                <td>Drones and Photogrammetry</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <div class="compilationinformation">
+            <b>Compilation information</b>
+            <br>Website made by Jordan Lees.
+        </div>
+        <table class="contacttable">
+            <caption><h2>Contact Information</h2></caption>
+            <tr>
+                <th>Email:</th>
+                <th><a href="mailto:jordanhlees@gmail.com">jordanhlees@gmail.com</a></th>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
